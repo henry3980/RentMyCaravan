@@ -1,5 +1,6 @@
 # RentMyCaravan
 A public resting place for our uni web development module coursework - hopefully someone finds it useful.
+Built by: Me, @Tubz-0 and @AlfredPrice
 
 Built with HTML / PHP / CSS and pure love - this is a management system for a fictional caravan
 rental company. Designed soley to allow the users(caravan owners) to manage listings of their own caravans.
