@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>Caravan ID Selection</h1>
+<script>
+        let ID = prompt("Please enter a Caravan ID to edit!", "123");
+        if (ID == null || ID == "") {
+            text = "still no ID selected.";
+        } else {
+            window.location.href='/CaravanEdit.php?id=' + ID;
+        }
+</script>
+</body>
+</html>
+

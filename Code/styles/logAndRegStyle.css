@@ -1,0 +1,349 @@
+/* Iestyn's code */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+body{
+    min-width: 360px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+.container_12{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FFE184;
+    border-style: ridge;
+    border-width: 25px;
+    margin-bottom: 0px;
+}
+ 
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12{
+    display: inline;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.container_12 .col_1{ width: 8.33%; }
+.container_12 .col_2{ width: 16.66%; }
+.container_12 .col_3{ width: 25%; }
+.container_12 .col_4{ width: 33.33%; }
+.container_12 .col_5{ width: 41.66%; }
+.container_12 .col_6{ width: 50%; }
+.container_12 .col_7{ width: 58.33%; }
+.container_12 .col_8{ width: 66.66%; }
+.container_12 .col_9{ width: 75%; }
+.container_12 .col_10{ width: 83.33%; }
+.container_12 .col_11{ width: 91.66%; }
+.container_12 .col_12{ width: 100%; }
+ 
+.push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .pull_12, .push_12 {
+    position:relative;
+}
+ 
+.alpha{ margin-left: 0; }
+.omega{ margin-right: 0; }
+ 
+
+.header{
+    display: flex;
+    background: #A4BFF2;
+    color: black;
+    font-family: Quicksand;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#headerImg{
+    text-align: center;
+}
+
+
+#headerTitle{
+    font-family: Quicksand;
+    text-align: center;
+}
+
+#nav{
+    font-family: Quicksand;
+    font-size: large;
+    text-align: center;
+}
+
+#registerHeader{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 25px;
+}
+
+#formContainerL{
+    text-align: center;
+}
+
+#formContainerR{
+    text-align: center;
+}
+
+#registerForm{
+    text-align: center;
+    margin: 5px;
+}
+
+.registerbtn{
+    padding: 12px;
+    margin: 15px;
+}
+
+.footer{
+    display: flex;
+    background: #A4BFF2;
+    color: black;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 5px;
+}
+
+.footer hr{
+    border-color: black;
+}
+
+#footerImg{
+    text-align: center;
+}
+
+#footerPages{
+    list-style-type:disc;
+    text-align: center;
+    font-family: Quicksand;
+}
+
+#footerContact{
+    text-align: center;
+}
+
+#formContainer{
+    text-align: center;
+    width: 50%;
+    padding-top: 175px;
+    
+}
+
+#formContainer h1{
+    font-family: Quicksand;
+
+}
+
+#caravanImg img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        display: flex;
+        background: #A4BFF2;
+        color: black;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #headerImg{
+        text-align: center;
+    }
+    
+    
+    #headerTitle{
+        font-family: Quicksand;
+        text-align: center;
+    }
+    
+    #nav{
+        font-family: Quicksand;
+        font-size: large;
+        text-align: center;
+    }
+    
+    #registerHeader{
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 25px;
+    }
+    
+    #formContainerL{
+        text-align: center;
+    }
+    
+    #formContainerR{
+        text-align: center;
+    }
+    
+    #registerForm{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .registerbtn{
+        padding: 12px;
+        margin: 15px;
+    }
+    
+    .footer{
+        display: flex;
+        background: #A4BFF2;
+        color: black;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding-top: 5px;
+    }
+    
+    .footer hr{
+        border-color: black;
+    }
+    
+    #footerImg{
+        text-align: center;
+    }
+    
+    #footerPages{
+        list-style-type:disc;
+        text-align: center;
+        font-family: Quicksand;
+    }
+    
+    #footerContact{
+        text-align: center;
+    }
+    
+    #formContainer{
+        text-align: center;
+        width: 50%;
+        padding-top: 175px;
+        
+    }
+
+    #formContainer h1{
+        font-family: Quicksand;
+    
+    }
+    
+    #caravanImg img{
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header{
+        display: flex;
+        background: #A4BFF2;
+        color: black;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #headerImg{
+        text-align: center;
+    }
+    
+    
+    #headerTitle{
+        font-family: Quicksand;
+        text-align: center;
+        font-size: x-small;
+    }
+    
+    #nav{
+        font-family: Quicksand;
+        font-size: large;
+        text-align: center;
+    }
+    
+    #registerHeader{
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 25px;
+    }
+    
+    #formContainerL{
+        text-align: center;
+    }
+    
+    #formContainerR{
+        text-align: center;
+    }
+    
+    #registerForm{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .registerbtn{
+        padding: 12px;
+        margin: 15px;
+    }
+    
+    .footer{
+        display: flex;
+        background: #A4BFF2;
+        color: black;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding-top: 5px;
+    }
+    
+    .footer hr{
+        border-color: black;
+    }
+    
+    #footerImg{
+        text-align: center;
+    }
+    
+    #footerPages{
+        list-style-type:disc;
+        text-align: center;
+        font-family: Quicksand;
+    }
+    
+    #footerContact{
+        text-align: center;
+    }
+    
+    #formContainer{
+        text-align: center;
+        width: 50%;
+        padding-top: 1dvh;
+        
+    }
+
+    #formContainer h1{
+        font-family: Quicksand;
+    
+    }
+    
+    #caravanImg img{
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+    }
+}

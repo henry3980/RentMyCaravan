@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Caravans</title>
+  <link rel="stylesheet" href="styles/FormStyles.css">
+  <link rel="stylesheet" href="styles/960_12_col.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="logo.png" alt="Rent My Caravan Logo" class="logo" />
+      <nav>
+        <button class="nav-btn active">View Caravans</button>
+        <button class="nav-btn">Add Caravans</button>
+        <button class="nav-btn">Remove Caravans</button>
+        <button class="nav-btn">Edit Caravans</button>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <h1>All Caravans</h1>
+        <button class="dropdown-toggle">Drop Down Nav Bar</button>
+      </header>
+
+      <section class="content">
+        <div class="form-section">
+          <label for="caravanName">Caravan Name:</label>
+          <select id="caravanName">
+            <option>Caravan A</option>
+            <option>Caravan B</option>
+          </select>
+
+          <label for="caravanColor">Colour:</label>
+          <select id="caravanColor">
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+
+          <label for="caravanAge">Age of Model:</label>
+          <input type="text" id="caravanAge" placeholder="e.g. 5 years" />
+        </div>
+
+        <div class="image-section">
+          <div class="caravan-image">Image of caravan the customer selected</div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <img src="logo.png" alt="Footer Logo" />
+          <p>Made with ♥ in Caerdydd</p>
+        </div>
+        <div class="footer-middle">
+          <p><strong>Useful Pages:</strong><br/>Login<br/>Register<br/>About us</p>
+        </div>
+        <div class="footer-right">
+          <p>📞 029 2018 0845<br/>
+             ✉️ Hello@RMC.cymru<br/>
+             📌 Ty carafan, Cardiff, CF00 0FA</p>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
